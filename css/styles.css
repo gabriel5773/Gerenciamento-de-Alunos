@@ -1,0 +1,93 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .btn {
+    font-weight: 500;
+  }
+  
+  .container {
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  form input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #218838;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  button.editar, button.excluir {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button.editar {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button.excluir {
+    background-color: #dc3545;
+    color: white;
+  }
+  body {
+  background-color: #f8f9fa;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.btn {
+  font-weight: 500;
+}
